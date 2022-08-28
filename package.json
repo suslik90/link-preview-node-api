@@ -1,0 +1,23 @@
+{
+  "name": "link-preview-node-api",
+  "version": "1.0.0",
+  "description": "webapi to get link previews",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "link-preview",
+    "nodejs"
+  ],
+  "author": "Roman Smekalov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sa-link-preview": "^1.0.2"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
